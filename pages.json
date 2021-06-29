@@ -1,0 +1,86 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index", //在某页面设置的导航栏的生命周期也是和这个页面绑定的，也就是说存在很多原生设置
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/collection/collection",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/sort/sort",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/audioDetail/audioDetail",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/bookDetail/bookDetail",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "乐读",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"fontSize": "12px",
+		"backgroundColor": "#f4f7fc",
+		"borderStyle": "white",
+		"selectedColor": "#dc4d2f",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/index.png",
+				"selectedIconPath": "static/tabbar/indexed.png"
+			},
+			{
+				"pagePath": "pages/sort/sort",
+				"text": "分类",
+				"iconPath": "static/tabbar/sort.png",
+				"selectedIconPath": "static/tabbar/sorted.png"
+			},
+			{
+				"pagePath": "pages/collection/collection",
+				"text": "收藏",
+				"iconPath": "static/tabbar/collection.png",
+				"selectedIconPath": "static/tabbar/collectioned.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "static/tabbar/mine.png",
+				"selectedIconPath": "static/tabbar/mined.png"
+			}
+		]
+	}
+}
